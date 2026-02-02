@@ -297,7 +297,7 @@ Excellent! You now understand depth and color data fundamentals. In the next mod
 
 ## 📚 Additional Resources
 
-- [RealSense SDK Python Examples](https://github.com/IntelRealSense/librealsense/tree/master/wrappers/python/examples)
+- [RealSense SDK Python Examples](https://github.com/realsenseai/librealsense/tree/master/wrappers/python/examples)
 - [OpenCV Python Tutorials](https://opencv-python-tutroals.readthedocs.io/)
 - [Open3D Documentation](http://www.open3d.org/docs/)
 - [Point Cloud Data Formats](https://en.wikipedia.org/wiki/Point_cloud)

@@ -473,5 +473,5 @@ Excellent! You now understand point cloud processing fundamentals. In the next m
 
 - [Open3D Documentation](http://www.open3d.org/docs/)
 - [Point Cloud Library (PCL)](https://pointclouds.org/)
-- [RealSense Point Cloud Examples](https://github.com/IntelRealSense/librealsense/tree/master/examples)
+- [RealSense Point Cloud Examples](https://github.com/realsenseai/librealsense/tree/master/examples/pointcloud)
 - [3D Computer Vision Tutorials](https://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Rusinkiewicz_Real-Time_3D_2013_CVPR_paper.pdf)

@@ -198,7 +198,7 @@ Upon completing all modules and the mini project, you'll receive a **Level 2 Com
 ## 🔗 Related Resources
 
 - [ROS2 Official Documentation](https://docs.ros.org/en/humble/)
-- [RealSense ROS2 Package](https://github.com/IntelRealSense/realsense-ros)
+- [RealSense ROS2 Package](https://github.com/realsenseai/realsense-ros)
 - [Open3D Documentation](http://www.open3d.org/docs/)
 - [OpenCV Python Tutorials](https://opencv-python-tutroals.readthedocs.io/)
 

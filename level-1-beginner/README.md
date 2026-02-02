@@ -40,7 +40,7 @@ By the end of Level 1, you will be able to:
   - D555: AI-optimized, high accuracy, Built-in ROS and Holoscan
 
 ### Software
-- **RealSense SDK 2.0**: Latest version from Intel
+- **RealSense SDK 2.0**: Latest version from RealSense
 - **Python 3.7+**: For scripting and development
 - **OpenCV**: Computer vision library
 - **RealSense Viewer**: GUI application for testing

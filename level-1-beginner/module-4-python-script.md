@@ -530,7 +530,7 @@ Fantastic! You can now write Python scripts to interact with RealSense cameras. 
 
 ## 📚 Additional Resources
 
-- [pyrealsense2 Documentation](https://intelrealsense.github.io/librealsense/python_docs/_modules/pyrealsense2.html)
+- [pyrealsense2 Documentation](https://github.com/realsenseai/librealsense/tree/master/wrappers/python)
 - [OpenCV Python Tutorials](https://opencv-python-tutroals.readthedocs.io/)
 - [NumPy Documentation](https://numpy.org/doc/)
 - [Open3D Python API](http://www.open3d.org/docs/release/python_api/)

@@ -45,13 +45,13 @@ Your RealSense camera package typically includes:
 #### Method 1: RealSenseSDK Installer (Recommended)
 
 1. **Download the SDK**:
-   - Visit [ RealSense SDK Downloads](https://www.intelrealsense.com/sdk-2/)
+   - Visit [ RealSense SDK Downloads](https://www.realsenseai.com/developers/)
    - Download " RealSense SDK 2.0" for Windows
 
 2. **Run the Installer**:
    ```bash
    # Run the downloaded .exe file as Administrator
-   Intel.RealSense.SDK-WIN10-2.54.1.4348.exe
+   RealSense.SDK-WIN10-2.54.1.4348.exe
    ```
 
 3. **Follow Installation Wizard**:
@@ -77,60 +77,11 @@ pip install opencv-python numpy matplotlib
 
 ### Ubuntu/Linux Installation
 
-#### Method 1: APT Package Manager (Recommended)
-
-```bash
-# Add Intel's repository
-sudo mkdir -p /etc/apt/keyrings
-curl -sSf https://librealsense.intel.com/Debian/apt-repo/conf/librealsense.pgp | sudo tee /etc/apt/keyrings/librealsense.pgp > /dev/null
-
-# Add repository to sources
-echo "deb [signed-by=/etc/apt/keyrings/librealsense.pgp] https://librealsense.intel.com/Debian/apt-repo $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/librealsense.list
-
-# Update package list and install
-sudo apt update
-sudo apt install librealsense2-dkms librealsense2-utils librealsense2-dev librealsense2-dbg
-```
-
-#### Method 2: Build from Source
-
-```bash
-# Install dependencies
-sudo apt update
-sudo apt install git libssl-dev libusb-1.0-0-dev libudev-dev pkg-config libgtk-3-dev
-sudo apt install cmake build-essential
-
-# Clone and build
-git clone https://github.com/IntelRealSense/librealsense.git
-cd librealsense
-mkdir build && cd build
-cmake .. -DCMAKE_BUILD_TYPE=Release
-make -j4
-sudo make install
-```
+https://github.com/realsenseai/librealsense/blob/master/doc/installation.md 
 
 ### macOS Installation
 
-#### Method 1: Homebrew (Recommended)
-
-```bash
-# Install Homebrew if not already installed
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-# Install RealSense SDK
-brew install librealsense
-
-# Install Python bindings
-pip3 install pyrealsense2
-```
-
-#### Method 2: Manual Installation
-
-```bash
-# Download and install from Intel's website
-# Visit: https://www.intelrealsense.com/sdk-2/
-# Download macOS installer and follow instructions
-```
+https://github.com/realsenseai/librealsense/blob/master/doc/installation_osx.md 
 
 ## 🧪 Testing Your Installation
 
@@ -324,7 +275,7 @@ Great! Your RealSense camera is now set up and working. In the next module, you'
 
 ## 📚 Additional Resources
 
-- [RealSense SDK Documentation](https://dev.intelrealsense.com/docs)
-- [RealSense Viewer User Guide](https://dev.intelrealsense.com/docs/intel-realsense-viewer)
-- [Troubleshooting Guide](https://dev.intelrealsense.com/docs/troubleshooting)
-- [Hardware Setup Guide](https://dev.intelrealsense.com/docs/hardware-setup)
+- [RealSense SDK Documentation](https://www.realsenseai.com/developers/)
+- [RealSense Viewer User Guide](https://www.realsenseai.com/get-started-depth-camera/)
+- [Troubleshooting Guide](https://www.realsenseai.com/support/)
+- [Hardware Setup Guide](https://www.realsenseai.com/get-started/)

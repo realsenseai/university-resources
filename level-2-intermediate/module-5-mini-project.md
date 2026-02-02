@@ -649,6 +649,6 @@ Ready to advance to the next level? Check out [Level 3: Advanced — AI + Roboti
 ## 📚 Additional Resources
 
 - [ROS2 Navigation Stack](https://navigation.ros.org/)
-- [RealSense ROS2 Package](https://github.com/IntelRealSense/realsense-ros)
+- [RealSense ROS2 Package](https://github.com/realsenseai/realsense-ros)
 - [RViz Visualization](http://wiki.ros.org/rviz)
 - [ROS2 Best Practices](https://docs.ros.org/en/humble/Contributing/Developer-Guide.html)
