@@ -1033,7 +1033,7 @@ git clone https://github.com/YOUR_USERNAME/librealsense.git
 cd librealsense
 
 # 3. Add upstream remote
-git remote add upstream https://github.com/IntelRealSense/librealsense.git
+git remote add upstream https://github.com/realsenseai/librealsense.git
 
 # 4. Create feature branch
 git checkout -b feature/my-new-feature

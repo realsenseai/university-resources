@@ -93,7 +93,7 @@ sudo apt install ros-humble-realsense2-camera ros-humble-realsense2-description
 
 # Or build from source
 cd ~/ros2_ws/src
-git clone https://github.com/IntelRealSense/realsense-ros.git -b ros2-master
+git clone https://github.com/realsenseai/realsense-ros.git -b ros2-master
 cd ..
 colcon build
 source install/setup.bash
@@ -196,10 +196,10 @@ ros2 topic info /camera/depth/image_rect_raw
 
 ```bash
 # Check USB connection
-lsusb | grep Intel
+lsusb | grep RealSense
 
 # Install librealsense for Jetson
-git clone https://github.com/IntelRealSense/librealsense.git
+git clone https://github.com/realsenseai/librealsense.git
 cd librealsense
 ./scripts/setup_udev_rules.sh
 mkdir build && cd build
@@ -240,7 +240,7 @@ sudo make install
 sudo apt install -y libssl-dev libusb-1.0-0-dev libudev-dev pkg-config
 
 # Build from source
-git clone https://github.com/IntelRealSense/librealsense.git
+git clone https://github.com/realsenseai/librealsense.git
 cd librealsense
 mkdir build && cd build
 cmake .. -DBUILD_PYTHON_BINDINGS=true -DPYTHON_EXECUTABLE=/usr/bin/python3
@@ -418,7 +418,7 @@ export DISPLAY=:0
 3. **Contact Support**
    - [Discord Community](https://discord.gg/SQdtSH4J)
    - [ROS Answers](https://answers.ros.org/questions/tagged/realsense/)
-   - [GitHub Issues](https://github.com/IntelRealSense/realsense-ros/issues)
+   - [GitHub Issues](https://github.com/realsenseai/realsense-ros/issues)
 
 ---
 

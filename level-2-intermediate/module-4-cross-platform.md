@@ -280,7 +280,7 @@ RUN apt-get update && apt-get install -y \
     libgtk-3-dev
 
 # Install RealSense SDK
-RUN git clone https://github.com/IntelRealSense/librealsense.git
+RUN git clone https://github.com/realsenseai/librealsense.git
 WORKDIR librealsense
 RUN mkdir build && cd build
 RUN cmake .. -DCMAKE_BUILD_TYPE=Release

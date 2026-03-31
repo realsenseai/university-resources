@@ -34,7 +34,7 @@ sudo apt install ros-humble-realsense2-camera ros-humble-realsense2-description
 # Or build from source
 mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws/src
-git clone https://github.com/IntelRealSense/realsense-ros.git
+git clone https://github.com/realsenseai/realsense-ros.git
 cd ~/ros2_ws
 colcon build --packages-select realsense2_camera realsense2_description
 ```

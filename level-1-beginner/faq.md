@@ -85,7 +85,7 @@ RealSense cameras have a standard 1/4"-20 tripod mount on the bottom. Options in
 |----------|---------|-------|
 | **Python** | pyrealsense2 | Most beginner-friendly |
 | **C++** | librealsense2 | Best performance |
-| **C#** | Intel.RealSense | .NET support |
+| **C#** | RealSense.NET | .NET support |
 | **JavaScript** | node-librealsense | Node.js binding |
 | **Rust** | realsense-rust | Community maintained |
 
@@ -255,8 +255,8 @@ config.enable_device('123456789')
 
 1. **This FAQ and Troubleshooting Guide**
 2. **Discord Community**: [discord.gg/SQdtSH4J](https://discord.gg/SQdtSH4J)
-3. **GitHub Issues**: [IntelRealSense/librealsense](https://github.com/IntelRealSense/librealsense/issues)
-4. **RealSense Community**: [community.intel.com](https://community.intel.com/t5/Intel-RealSense/ct-p/realsense)
+3. **GitHub Issues**: [realsenseai/librealsense](https://github.com/realsenseai/librealsense/issues)
+4. **RealSense Community**: [community.realsenseai.com](https://community.realsenseai.com)
 
 ### How do I update firmware?
 

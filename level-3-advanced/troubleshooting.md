@@ -443,14 +443,14 @@ def process_frame(frame):
    # NVIDIA
    nvidia-smi
    
-   # Intel
-   intel_gpu_top
+   # GPU monitoring
+   gpu_top
    ```
 
 3. **Contact Support**
    - [Discord Community](https://discord.gg/SQdtSH4J)
    - [ROS Answers](https://answers.ros.org/)
-   - [GitHub Issues](https://github.com/IntelRealSense/librealsense/issues)
+   - [GitHub Issues](https://github.com/realsenseai/librealsense/issues)
 
 ---
 

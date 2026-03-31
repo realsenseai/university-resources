@@ -16,8 +16,8 @@ This guide covers common issues encountered when getting started with RealSense 
 1. **Check USB Connection**
    ```bash
    # Verify USB connection (Linux)
-   lsusb | grep Intel
-   # Should show: Intel Corp. RealSense...
+   lsusb | grep RealSense
+   # Should show: RealSense device...
    ```
 
 2. **Use USB 3.0 Port**
@@ -335,8 +335,8 @@ If these solutions don't work:
 
 3. **Contact Support**
    - [Discord Community](https://discord.gg/SQdtSH4J)
-   - [GitHub Issues](https://github.com/IntelRealSense/librealsense/issues)
-   - [RealSense Community Forum](https://community.intel.com/t5/Intel-RealSense/ct-p/realsense)
+   - [GitHub Issues](https://github.com/realsenseai/librealsense/issues)
+   - [RealSense Community Forum](https://community.realsenseai.com)
 
 ---
 

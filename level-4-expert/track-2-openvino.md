@@ -3,7 +3,7 @@
 ## 🎯 Learning Objectives
 
 By the end of this track, you will be able to:
-- Optimize AI models for Intel hardware using OpenVINO
+- Optimize AI models using OpenVINO
 - Build high-performance RGB-D inference pipelines
 - Deploy real-time 3D perception on edge devices
 - Create custom OpenVINO operations for depth processing
@@ -13,7 +13,7 @@ By the end of this track, you will be able to:
 
 ### What is OpenVINO?
 
-**OpenVINO** (Open Visual Inference and Neural Network Optimization) is Intel's toolkit for optimizing and deploying AI models on Intel hardware:
+**OpenVINO** (Open Visual Inference and Neural Network Optimization) is a toolkit for optimizing and deploying AI models on various hardware:
 
 - **Model Optimization**: Quantization, pruning, and graph optimization
 - **Hardware Acceleration**: CPU, GPU, VPU, and FPGA support
@@ -652,7 +652,7 @@ class EdgeInferenceOptimizer:
         }
 ```
 
-### Intel Neural Compute Stick (NCS2) Support
+### Neural Compute Stick (NCS2) Support
 
 ```python
 from openvino import Core
@@ -802,7 +802,7 @@ class PointCloudGeneratorOp:
 
 ### Exercise 4: Edge Deployment
 1. Deploy on NVIDIA Jetson
-2. Deploy on Intel NCS2
+2. Deploy on NCS2
 3. Compare performance
 4. Optimize for each platform
 
@@ -812,9 +812,9 @@ class PointCloudGeneratorOp:
 
 | Model | Platform | Precision | Latency | FPS |
 |-------|----------|-----------|---------|-----|
-| YOLOv8n | Intel i7-12700 | FP32 | 8.5ms | 117 |
-| YOLOv8n | Intel i7-12700 | INT8 | 4.2ms | 238 |
-| YOLOv8n | Intel Arc A770 | FP16 | 3.1ms | 322 |
+| YOLOv8n | Core i7-12700 | FP32 | 8.5ms | 117 |
+| YOLOv8n | Core i7-12700 | INT8 | 4.2ms | 238 |
+| YOLOv8n | Arc A770 GPU | FP16 | 3.1ms | 322 |
 | YOLOv8n | NCS2 | FP16 | 45ms | 22 |
 | YOLOv8n | Jetson Orin | FP16 | 5.8ms | 172 |
 

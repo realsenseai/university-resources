@@ -486,7 +486,7 @@ ASAN_OPTIONS=detect_leaks=1 ./my_program
 
 3. **Contact Support**
    - [Discord Expert Channel](https://discord.gg/SQdtSH4J)
-   - [GitHub Issues](https://github.com/IntelRealSense/librealsense/issues)
+   - [GitHub Issues](https://github.com/realsenseai/librealsense/issues)
    - [OpenVINO Issues](https://github.com/openvinotoolkit/openvino/issues)
 
 ---

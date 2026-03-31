@@ -64,7 +64,7 @@ Develop advanced perception systems for humanoid robots.
 - Advanced SLAM for humanoid navigation
 
 ### [Track 2: RealSense + OpenVINO Mastery](./track-2-openvino.md)
-Master Intel's OpenVINO toolkit for optimized AI inference.
+Master the OpenVINO toolkit for optimized AI inference.
 
 **Key Topics:**
 - OpenVINO model optimization and deployment
@@ -135,7 +135,7 @@ pip install pre-commit black flake8 mypy
 
 ```bash
 # Clone and build RealSense SDK from source
-git clone https://github.com/IntelRealSense/librealsense.git
+git clone https://github.com/realsenseai/librealsense.git
 cd librealsense
 mkdir build && cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release -DBUILD_PYTHON_BINDINGS=ON
@@ -183,7 +183,7 @@ Upon completing Level 4, you will:
 
 ## 🔗 Expert Resources
 
-- [RealSense SDK Source Code](https://github.com/IntelRealSense/librealsense)
+- [RealSense SDK Source Code](https://github.com/realsenseai/librealsense)
 - [OpenVINO Documentation](https://docs.openvino.ai/)
 - [ RealSense Research Papers](https://www.intelrealsense.com/research/)
 - [Expert Community Forum](https://github.com/your-org/realsense-university/discussions)

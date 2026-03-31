@@ -246,7 +246,7 @@ def recognize_gesture(color_image, depth_image):
 
 | Platform | RAM | CPU | Notes |
 |----------|-----|-----|-------|
-| **Desktop** | 8GB | Intel i5 or AMD Ryzen 5 | Full performance |
+| **Desktop** | 8GB | Modern quad-core CPU | Full performance |
 | **Jetson Nano** | 4GB | ARM Cortex-A57 | Reduce resolution |
 | **Jetson Xavier** | 16GB | ARM v8.2 | Good performance |
 | **Raspberry Pi 4** | 4GB | ARM Cortex-A72 | Limited, reduce resolution |
@@ -266,7 +266,7 @@ def recognize_gesture(color_image, depth_image):
 
 3. **Use Hardware Acceleration**
    - Jetson: Use CUDA/TensorRT
-   - Intel: Use OpenVINO
+   - CPU: Use OpenVINO
 
 4. **Minimize Memory Copies**
    ```python
@@ -278,7 +278,7 @@ def recognize_gesture(color_image, depth_image):
 
 ```bash
 # Clone repository
-git clone https://github.com/IntelRealSense/librealsense.git
+git clone https://github.com/realsenseai/librealsense.git
 cd librealsense
 
 # Install dependencies (Ubuntu)

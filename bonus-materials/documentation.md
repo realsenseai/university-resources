@@ -271,7 +271,7 @@ def apply_filters(depth_frame, filters):
 
 | Framework | Purpose | Installation |
 |-----------|---------|--------------|
-| **OpenVINO** | Intel AI inference | `pip install openvino` |
+| **OpenVINO** | AI inference optimization | `pip install openvino` |
 | **ONNX Runtime** | Cross-platform inference | `pip install onnxruntime` |
 | **TensorRT** | NVIDIA inference | NVIDIA installer |
 | **MediaPipe** | ML solutions | `pip install mediapipe` |
@@ -280,13 +280,13 @@ def apply_filters(depth_frame, filters):
 ## 🔗 Additional Resources
 
 ### 🌐 Online Resources
-- **[RealSense GitHub](https://github.com/IntelRealSense)**: Official GitHub repositories
-- **[RealSense Community](https://community.intel.com/t5/Intel-RealSense/ct-p/realsense)**: Community forums
+- **[RealSense GitHub](https://github.com/realsenseai)**: Official GitHub repositories
+- **[RealSense Community](https://community.realsenseai.com)**: Community forums
 - **[Stack Overflow](https://stackoverflow.com/questions/tagged/realsense)**: Q&A for developers
 - **[ROS Answers](https://answers.ros.org/questions/tagged/realsense)**: ROS-specific Q&A
 
 ### 📺 Video Resources
-- **[RealSense YouTube](https://youtube.com/@IntelRealSense)**: Official video tutorials
+- **[RealSense YouTube](https://youtube.com/@realsense)**: Official video tutorials
 - **[ROS2 Tutorials](https://youtube.com/playlist?list=PLRE44FoOoKf7NzWwxt3W2taZ7BiWyfhCp)**: ROS2 integration videos
 - **[OpenCV Tutorials](https://youtube.com/@opencvofficial)**: Computer vision tutorials
 
@@ -303,7 +303,7 @@ def apply_filters(depth_frame, filters):
 ## 📞 Documentation Support
 
 ### 🆘 Getting Help
-- **Documentation Issues**: [GitHub Issues](https://github.com/IntelRealSense/librealsense/issues)
+- **Documentation Issues**: [GitHub Issues](https://github.com/realsenseai/librealsense/issues)
 - **Community Support**: [Discord](https://discord.gg/SQdtSH4J)
 - **Email Support**: support@realsenseai.com
 

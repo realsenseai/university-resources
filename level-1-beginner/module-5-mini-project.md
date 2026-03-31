@@ -655,7 +655,7 @@ Ready to advance to the next level? Check out [Level 2: Intermediate — Buildin
 
 ## 📚 Additional Resources
 
-- [RealSense SDK Examples](https://github.com/IntelRealSense/librealsense/tree/master/examples)
+- [RealSense SDK Examples](https://github.com/realsenseai/librealsense/tree/master/examples)
 - [OpenCV Python Tutorials](https://opencv-python-tutroals.readthedocs.io/)
 - [CSV File Handling in Python](https://docs.python.org/3/library/csv.html)
-- [RealSense Community Forum](https://github.com/IntelRealSense/librealsense/discussions)
+- [RealSense Community Forum](https://github.com/realsenseai/librealsense/discussions)
